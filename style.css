@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+.Dancing-Script {
+  font-family: "Dancing Script", cursive;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+
+/* navbar design starts */
+.navbar {
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-brand {
+  font-size: 36px;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+}
+.nav-items {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+
+  gap: 2.5rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.home {
+  background-color: rgb(230, 83, 60);
+  padding: 8px 20px;
+  margin-left: 4px;
+  font-weight: 600;
+  border-radius: 46px;
+}
+.about {
+  margin-right: 20px;
+}
