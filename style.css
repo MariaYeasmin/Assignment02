@@ -22,7 +22,7 @@ body {
 header {
   background: linear-gradient(
     180deg,
-    rgb(17, 17, 17),
+    rgb(41, 41, 41),
     rgba(119, 119, 119, 0) 100%
   );
 }
@@ -77,7 +77,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  gap: 54px;
   margin-left: 190px;
   margin-right: 190px;
 }
@@ -146,7 +146,7 @@ header {
 .btn1 {
   font-size: 18px;
   font-weight: 600;
-  padding: 16px 40px;
+  padding: 14px 24px;
   background-color: rgb(230, 83, 60);
   color: rgb(255, 255, 255);
   border-radius: 42px;
@@ -155,7 +155,7 @@ header {
 .btn2 {
   font-size: 18px;
   font-weight: 600;
-  padding: 16px 40px;
+  padding: 14px 24px;
   border-radius: 42px;
   border: 1px solid white;
   background-color: transparent;
@@ -166,6 +166,58 @@ header {
 
   align-items: center;
   gap: 14px;
+}
+/* header section done */
+
+/* main program starts */
+.habit {
+  text-align: center;
+}
+.habit-heading {
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 50px;
+}
+.habit-p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 14px;
+  margin-bottom: 55px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.img-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+
+.h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.para {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.img-1 > img {
+  border-radius: 50%;
+}
+.img-2 > img {
+  border-radius: 50%;
+}
+.img-3 > img {
+  border-radius: 50%;
+}
+.img-4 > img {
+  border-radius: 50%;
 }
 
 /* media query */
@@ -282,5 +334,17 @@ header {
     position: relative;
 
     padding: 20px;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-right: 190px;
   }
 }
