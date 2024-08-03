@@ -434,6 +434,7 @@ header {
   .motaimg {
     border-radius: 20px;
     max-width: 315px;
+    margin-right: 0;
   }
 
   .run-p {
