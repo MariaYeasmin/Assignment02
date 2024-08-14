@@ -399,6 +399,223 @@ header {
   margin: 0;
 }
 
+/* calculator part */
+.calc-hp {
+  justify-content: center;
+  margin: 88px 384px;
+}
+.calc-headinng {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.calc-p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* chart and bmi */
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid #ffffff80;
+  padding: 8px 10px;
+}
+td {
+  color: #ffffff80;
+}
+.cal-caontainer {
+  background-color: #222222;
+}
+.cal-caontainer2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  gap: 170px;
+}
+
+.chart h3 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 52px;
+}
+.table th {
+  font-size: 16px;
+  font-weight: 500;
+}
+.table tr {
+  font-size: 14px;
+  font-weight: 400;
+}
+.bmi h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.bmi p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff80;
+  margin-bottom: 34px;
+}
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  color: #b0b0b0;
+  margin-bottom: 12px;
+}
+.bmi input {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffffff1a;
+  border: none;
+  color: #b0b0b0;
+  border-radius: 8px;
+  padding: 12px 40px 12px 20px;
+}
+.dropdown {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b0b0b0;
+  background-color: #ffffff1a;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
+.calbtn {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #e6533c;
+  padding: 16px 40px;
+  border-radius: 42px;
+  border: none;
+}
+
+.selectfactor {
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  color: #b0b0b0;
+  font-weight: 400;
+  background-color: #ffffff1a;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+/* meet our team */
+
+.meet-team {
+  text-align: center;
+  margin: 60px;
+}
+.meet-team h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+.meet-team p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.mteam-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 190px;
+  margin-right: 190px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+}
+.mteam-container img {
+  width: 270px;
+  height: 200px;
+  border-radius: 18px;
+}
+.trainer-1,
+.trainer-2,
+.trainer-3,
+.trainer-4,
+.trainer-5,
+.trainer-6 {
+  position: relative;
+}
+
+.trainer-1 img,
+.trainer-2 img,
+.trainer-3 img,
+.trainer-4 img .trainer-5 img .trainer-6 img {
+  display: block;
+  width: 100%;
+}
+.text-1,
+.text-2,
+.text-3,
+.text-4,
+.text-5,
+.text-6 {
+  position: absolute;
+  top: 70%;
+  left: 6%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* footer */
+.footer1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 88px;
+  padding: 60px 190px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 50px;
+}
+.f {
+  font-size: 70px;
+  font-weight: 800;
+  color: #e6533c;
+}
+.fitness p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b0b0b0;
+}
+
+.get {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.list {
+  font-size: 23px;
+  font-weight: 400;
+  gap: 20px;
+  color: #b0b0b0;
+}
+.foot {
+  color: #b0b0b0;
+  text-align: center;
+}
+.footer-title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 /* media query */
 @media screen and (max-width: 576px) {
   .navbar {
@@ -591,5 +808,71 @@ header {
     border: none;
     font-weight: 600;
     padding: 16px 40px;
+  }
+  .meet-team h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 12px;
+  }
+  .mteam-container img {
+    width: 100%;
+    height: 272px;
+    border-radius: 18px;
+  }
+  .training-sec {
+    margin: 100px 20px;
+  }
+  .grid-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: 1.3fr 2fr 1.5fr;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 1.8fr 1.5fr 1.6fr;
+  }
+  .calc-hp {
+    justify-content: center;
+    margin: 40px 20px;
+  }
+  .cal-caontainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 40px;
+  }
+  .input-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    gap: 12px;
+    color: #b0b0b0;
+    margin-bottom: 12px;
+  }
+  .mteam-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .footer1 {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 88px;
+    padding: 20px 20px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
   }
 }
